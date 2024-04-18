@@ -1,0 +1,14 @@
+.chart-container {
+  width: 90vw;
+  height: 89vh;
+  align-self: center;
+  justify-self: center;
+}
+.chart-container__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #190a2d;
+}
+
+/*# sourceMappingURL=chart.css.map */

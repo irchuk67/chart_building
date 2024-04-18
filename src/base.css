@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.app {
+  padding: 1.5rem 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > h1 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: lightslategray;
+  font-family: Arial, sans-serif;
+}
+
+/*# sourceMappingURL=base.css.map */

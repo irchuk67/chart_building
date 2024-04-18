@@ -1,0 +1,33 @@
+.menu {
+  z-index: 100;
+  position: fixed;
+  top: 1.5rem;
+  right: 1rem;
+
+  &__item, &__button {
+    list-style: none;
+    background-color: lightslategray;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    width: 10rem;
+
+    &:not(:last-child) {
+      margin-bottom: .5rem;
+    }
+
+    & > a {
+      color: white;
+      text-decoration: none;
+
+      &:hover, &:active {
+        color: lightsteelblue;
+      }
+    }
+  }
+
+  &__button{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+}

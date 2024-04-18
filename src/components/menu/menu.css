@@ -1,0 +1,30 @@
+.menu {
+  z-index: 100;
+  position: fixed;
+  top: 1.5rem;
+  right: 1rem;
+}
+.menu__item, .menu__button {
+  list-style: none;
+  background-color: lightslategray;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 10rem;
+}
+.menu__item:not(:last-child), .menu__button:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.menu__item > a, .menu__button > a {
+  color: white;
+  text-decoration: none;
+}
+.menu__item > a:hover, .menu__item > a:active, .menu__button > a:hover, .menu__button > a:active {
+  color: lightsteelblue;
+}
+.menu__button {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+/*# sourceMappingURL=menu.css.map */
